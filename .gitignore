@@ -6,15 +6,12 @@ dist/
 build/
 *.log
 
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
 *.swp
 *.broken.bak
@@ -33,3 +30,7 @@ _inflate_git_obj.py
 # Keep the directory in git via .gitkeep so the first run works out of the box.
 backend/uploads/*
 !backend/uploads/.gitkeep
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
